@@ -45,7 +45,7 @@ const SimpleInputReducer = (props) => {
 
   return (
     <div>
-      <h1>Form validaioon using useReducer</h1>
+      <h1>Form validation using useReducer</h1>
       <form onSubmit={formSubmit}>
         <div className={nameInputClasses}>
           <label htmlFor="name">Your Name</label>
